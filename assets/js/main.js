@@ -19,9 +19,9 @@ fetch(url)
         // console.log(data);
         pokemon.innerHTML = `
             <h2>${data.name}</h2>
-            <img src="${data.sprites.back_default}" alt="${data.name}">
-            <img src="${data.sprites.back_shiny}" alt="${data.name}">
             <img src="${data.sprites.front_default}" alt="${data.name}">
+            <img src="${data.sprites.back_default}" alt="${data.name}">
+            <img src="${data.sprites.front_shiny}" alt="${data.name}">
             <img src="${data.sprites.back_shiny}" alt="${data.name}">
         `;
     })
